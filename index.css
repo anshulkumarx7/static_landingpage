@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #d7f5dc;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    padding: 0.5rem 1.1rem 0.5rem 1.1rem;
+
+
+}
+body{
+  position: relative;
+}
+#navbar {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  height:5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 5rem 0 5rem;
+}
+#navbar .nav-icons ul {
+    display: flex;
+
+}
+#navbar .nav-icons ul li{
+    font-size: 15px;
+    line-height: 28px;
+    padding-right:2rem;
+    list-style: none;
+}
+#navbar .nav-icons ul li:last-child{
+  padding-right: 0;
+}
+#navbar .nav-icons ul li:nth-child(4) a{
+  border: #20B15A 2px solid;
+  border-radius: 10px;
+}
+#navbar .nav-icons ul li:last-child a{
+  background-color: #20B15A;
+  border-radius: 10px;
+}
+#navbar .logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.925px;
+  line-height: 34px;
+  color: #000000;
+}
+#navbar .logo-colorchange{
+    color:#F55F1D;
+}
+.arrow-pd{
+  padding-left: 0.3rem;
+}
+
+.container{
+  display: flex;
+  padding:0 0 0 5rem;
+}
+
+.container .content{
+  padding-top:100px;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  width:60%;
+  
+}
+.container .content h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+}
+.container  .container p{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22.925px;
+  line-height: 31px;
+}
+.container .content button{
+  margin-top:1.5rem;
+  padding:1rem;
+  background-color: #20B15A;
+  color:#FFFFFF;
+  border-radius: 10px;
+  border: none;
+}
+.container .image-section img{
+  height:400px;
+}
+.container .image-section .box-1{
+  position: absolute;
+    width: 65.21px;
+    height: 79.21px;
+    left: 782.12px;
+    top: 100.86000000000001px;
+}
+.container .image-section .box-2{
+  position: absolute;
+  width: 65.21px;
+  height: 45.209999999999994px;
+  left: 1064.78px;
+  top: 162.98000000000002px;
+}
+.container .image-section .box-3{
+  position: absolute;
+  width: 61.209999999999994px;
+  height: 65.21px;
+  left: 683.4px;
+  top: 402.23px;
+}
+.companies{
+  height:110px;
+  background-color: #FFFFFF;
+  padding:2.5rem;
+}
+.companies img{
+  height: 25px;
+  width:60px;
+  background-color: #FFFFFF;
+}
+
+.companies ul{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+.companies ul li{
+  list-style: none;
+  background-color: #FFFFFF;
+
+}
+
+
+/* .container .image-section {
+  margin-left:50px;
+} */
+
+
+
